@@ -4,7 +4,7 @@ if [ "$1" == "" ]
 then
 echo "---- DNS TRANSFER ZONE - TOOL RECON ADDRESSES"
 echo "=== Criada por Monttanna Durante as aulas da Desec."
-echo "=== Como usar: $0 <domain>"
+echo "=== Como usar: $0 <<domain>>"
 echo "=== Exemplo: businesscorp.com.br"
 else
 clear
