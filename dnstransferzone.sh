@@ -3,13 +3,13 @@
 if [ "$1" == "" ]
 then
 echo "---- DNS TRANSFER ZONE - TOOL RECON ADDRESSES"
-echo "=== Criada por Monttanna Durante as aulas da Desec."
+echo "=== Criada por 0xPetrvs Durante as aulas da Desec."
 echo "=== Como usar: $0 <<domain>>"
 echo "=== Exemplo: businesscorp.com.br"
 else
 clear
 echo "=============================================="
-echo "========= MINI PROJECT BY M0NTT4NN4 =========="
+echo "========= MINI PROJECT BY PETRVS =========="
 echo "== DNS TRANSFER ZONE - TOOL RECON ADDRESSES =="
 echo "=============================================="
 for dns in $(host -t ns $1 | cut -d " " -f4);do
