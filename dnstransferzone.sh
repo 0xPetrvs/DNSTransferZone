@@ -17,5 +17,5 @@ host -l $1 $dns | cut -d " " -f1,4 | egrep -v ":|;|Using"
 done
 echo "------------------------------------------------"
 echo "FINALIZADO!"
-echo "Se caso estiver a fim de mais algumas informações... Execute: host -l -a $1 $dns"
+echo "Para mais informações, Execute: host -l -a $1 $dns"
 fi
